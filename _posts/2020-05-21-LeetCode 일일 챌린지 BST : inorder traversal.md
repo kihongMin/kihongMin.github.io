@@ -55,10 +55,11 @@ def search(tree,k,count=0):
 		search(tree.right)
 ```
 
-1. 재귀가 올바르게 return을 반환하지 못하는 점![스크린샷 2020-05-21 오후 3.45.19](/Users/mingihong/Library/Application Support/typora-user-images/스크린샷 2020-05-21 오후 3.45.19.png)
-2. count를 올바르게 세지 못한 점
+1. 재귀가 올바르게 return을 반환하지 못하는 점
+<img width="400" alt="dc_w3_01" src="https://user-images.githubusercontent.com/61821904/82532571-a1249280-9b7c-11ea-969e-4594e161e4d5.png">
 
-![image-20200521154557105](/Users/mingihong/Library/Application Support/typora-user-images/image-20200521154557105.png)
+2. count를 올바르게 세지 못한 점
+<img width="400" alt="dc_w3_02" src="https://user-images.githubusercontent.com/61821904/82532562-9c5fde80-9b7c-11ea-8b6b-9e65a58a71fd.png">
 
 위와 같은 문제로 인해 마음편하게 class 변수를 사용해 문제를 해결하기로 했다.
 
