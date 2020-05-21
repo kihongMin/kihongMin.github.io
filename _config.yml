@@ -29,8 +29,8 @@ github_username:  kihongmin
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+plugins: ['jekyll-paginate', 'jekyll-sitemap', 'jekyll-include-cache', 'jekyll-gist','jekyll-feed']
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
