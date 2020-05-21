@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kihongmin.github.io/sitemap.xml
